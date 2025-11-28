@@ -1,0 +1,20 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8fd3f4"/>
+      <stop offset="100%" stop-color="#84fab0"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bg)" rx="24" />
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round">
+    <path d="M80 200 Q150 120 220 200"/>
+    <circle cx="150" cy="115" r="28" fill="rgba(255,255,255,0.2)" stroke="none"/>
+    <path d="M150 80 L150 140"/>
+    <path d="M120 160 L150 140 L180 160"/>
+    <path d="M120 220 L150 170 L180 220"/>
+  </g>
+  <text x="150" y="270" text-anchor="middle" font-size="22" font-family="Segoe UI, sans-serif" fill="#ffffff">
+    Pose Change
+  </text>
+</svg>
+

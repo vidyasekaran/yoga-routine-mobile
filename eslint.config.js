@@ -3,8 +3,17 @@ const { defineConfig } = require('eslint/config');
 const expoConfig = require('eslint-config-expo/flat');
 
 module.exports = defineConfig([
-  expoConfig,
+  ...expoConfig,
   {
     ignores: ['dist/*'],
+    rules: {
+      '@typescript-eslint/no-unused-vars': [
+        'error',
+        {
+          varsIgnorePattern: '^[A-Z_]',
+          argsIgnorePattern: '^_',
+        },
+      ],
+    },
   },
 ]);
