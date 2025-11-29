@@ -8,10 +8,22 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "build:web" : "expo export --platform web", 
+    "build:android" : "expo export --platform android",
+    "build:ios" : "expo export --platform ios",
+    "build:all" : "expo export --platform all",
+    "build:all:web" : "expo export --platform all --web",
+    "build:all:android" : "expo export --platform all --android",
+    "build:all:ios" : "expo export --platform all --ios",
+    "build:all:all" : "expo export --platform all --all",
+    "build:all:web:android" : "expo export --platform all --web --android",
+    "build:all:web:ios" : "expo export --platform all --web --ios",
+    "build:all:web:all" : "expo export --platform all --web --all"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
+
     "@react-navigation/bottom-tabs": "^7.4.0",
     "@react-navigation/elements": "^2.6.3",
     "@react-navigation/native": "^7.1.8",
